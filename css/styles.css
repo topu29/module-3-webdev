@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+.container .navbar-header{
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+.container{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+div.navbar-header h2{
+  text-align:center; 
+	position: relative;
+	font-family: 'Crimson Text', serif;
+	font-weight: bold;
+	float:left;
+	font-size: 1.8em;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	font-weight: bold;
+	left:0px;
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	padding: 0px;
+	line-height: .75;
+	width: 100%
+}
+
+
+.container .navbar-header{
+  margin-top: -8px;
+}
+
+.navbar-brand a:hover{
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #87CEEB;
+}
+
+#header-nav
+{
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid;
+
+}
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top: -20px;
+}
+
+div#collapsable-nav{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+div#collapsable-nav li{
+	border-bottom:  1px solid;
+}
+
+
+
+/* Simple Responsive Framework. 
+.row {
+  width: 100%;
+}*/
+div#container{
+ /* background-color: #00FFFF;*/
+  position: relative;
+  top: 20px;
+}
+
+div#container h2{
+position: relative;	
+padding-top: 0;
+margin-bottom: 50px;
+text-align: center;
+font-family: 'Crimson Text', serif;
+font-size: 3em;
+font-style: italic;
+margin-left: 0;
+}
+
+
+
+p {
+  border: 1px solid rgb(14, 231, 32);
+  background-color: rgb(173, 75, 10);
+  width: 95%;
+  height: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+} 
+
+.navbar-brand h2{
+  color: chocolate !important;
+}
+
+/********** Desktop only **********/
+@media (min-width: 992px) {
+   .col-lg-12 {
+    float: left;
+   
+  }
+  
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet View only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 767px) {
+   .col-sm-12 {
+    float: left;
+    
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+#container h3{	
+position: relative;
+margin-top: 8px;
+float: left;
+left: 47%;
+font-style: italic;
+}
+
+#Pasta, #Pizza, #Dessert{
+  width: 100%;
+  padding: 10px, 20px, 20px,20px;
+  margin-bottom: 20px;
+
+}
+</style>
